@@ -49,8 +49,8 @@ begin
     cant_total_megas:=0;
     factura_minutos:=0;
     factura_megas:=0;
-    Funcion_esclavo(esclavo);
-    for i:=1 to esclavo.cant_lineas do
+    Funcion_esclavo(esclavoF);
+    for i:=1 to esclavoF.cant_lineas do
     begin
         Linea_Telefono(Telefono);
         cant_total_minutos:=cant_total_minutos+Telefono.minutos_consumidos;
